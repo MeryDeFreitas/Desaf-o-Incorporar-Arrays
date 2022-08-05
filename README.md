@@ -1,2 +1,2 @@
-# Desaf-o-Incorporar-Arrays
+# Incorporar-Arrays
 Desafío: Incorporar Arrays
