@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+.home-main{
+    display: grid;
+    background-image: url('../img/Wallpaper.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    grid-template-areas: 
+    header header header header
+    left left right right;
+}
+
+.home-main section{ 
+    display: grid;
+    grid-row: 2;
+    grid-column: auto;
+    height: 100vh;
+}
+
+.home-main-button-Jedi{
+    width: 140px;
+    height: 70px;
+    background: #161880;
+    border: none;
+    display: grid;
+    align-items: center;
+    margin-top: 150px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 6px;
+    grid-area: left;
+}
+
+.home-main-button-Jedi:hover{
+    background: #286fe1;
+    box-shadow: 0 0 10px #c7c7e4, 0 0 40px #c7c7e4, 0 0 80px #c7c7e4;
+    transition: 1s;
+}
+
+.home-main-button-Jedi a{
+    font-family: 'Days One';
+    font-weight: 700px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.home-main-button-Sith{
+    width: 140px;
+    height: 70px;
+    background: #820505;
+    border: none;
+    display: grid;
+    align-items: center;
+    margin-top: 150px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 6px;
+    grid-area: right;
+}
+
+.home-main-button-Sith:hover{
+    background: #a72929;
+    box-shadow: 0 0 10px #e0b0b0, 0 0 40px #e0b0b0, 0 0 80px #e0b0b0;
+    transition: 1s;
+}
+
+.home-main-button-Sith a{
+    font-family: 'Days One';
+    font-weight: 700px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Days One';
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    grid-area: header;
+}

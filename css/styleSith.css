@@ -1,0 +1,170 @@
+body{
+    background-color: #240738;
+    color: #fff;
+}
+
+.Menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+header a:hover{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.Sith{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Sith img{
+    width: 100%;
+    height: 450px;
+    background-image: url('../img/Siths.jpg');
+    background-size: 100% 450px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    overflow: hidden;
+    border: none;
+}
+
+.Sith-main article{
+    text-align: center;
+}
+
+.Productos-Sith{
+    display: flex;
+    justify-content: center;
+}
+
+.Producto1, .Producto2, .Producto3{
+    margin: 20px;
+}
+
+.botonDecoracion{
+    width: 80px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    text-decoration: none;
+    overflow: hidden;
+    margin-left: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #286fe1, 0 0 40px #286fe1, 0 0 80px #286fe1;
+}
+
+.Producto1 p, .Producto2 p, .Producto3 p{
+    text-align: center;
+}
+
+
+.Producto1 img{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/Sith1.JPG');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    overflow: hidden;
+    border: none;
+}
+
+.Producto2 img{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/Sith2.jfif');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+    overflow: hidden;
+    border: none;
+}
+
+.Producto3 img{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/Sith3.JPG');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+    overflow: hidden;
+    border: none;
+}
+
+#carrito{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.grid-container{
+    max-width: 980px;
+    margin: auto;
+}
+
+#RedesSociales{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Github{
+    background-image: url('../img/github.png');
+    background-size: 50px 50px;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+}
+
+.Twitter{
+    background-image: url('../img/twitter.png');
+    background-size: 50px 50px;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+}
+
+.Instagram{
+    background-image: url('../img/instagram.png');
+    background-size: 50px 50px;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+}
