@@ -41,12 +41,12 @@ h2{
 }
 
 .Jedi img{
-    width: 100%;
-    height: 500px;
+    width: 700px;
+    height: 400px;
     background-image: url('../img/Jedis.jpg');
-    background-size: 100% 500px;
+    background-size: 100% 400px;
     background-repeat: no-repeat;
-    margin-top: 20px;
+    margin-top: 40px;
     overflow: hidden;
     border: none;
 }
